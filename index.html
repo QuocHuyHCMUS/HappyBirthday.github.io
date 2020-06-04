@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KXDC7NZ');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<title>Bảo mật thông tin</title>
+<link rel="shortcut icon" href="/img/icon.ico" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<style>
+
+	.desBoard {
+		margin-top: 20px;
+		border-radius: 10px;
+		border: 3px solid rgba(255, 255, 255, .2);
+		background-color: rgba(255, 255, 255, .1);
+		width: 300px;
+		height: 480px;
+	}
+	.valueinput{
+		width: 100px;
+		height: 20px;
+		margin-top: 20px;
+		border-radius: 10px;
+		border: 3px solid rgba(255, 255, 255, 0.6);
+		color: #ff0000;
+		font-size: 17px;
+		font-weight: bold;
+		padding: 10px;
+	}
+			
+	.valueinput:focus {
+		outline: none;   
+	}
+	.modeButton {
+		border-radius: 10px;
+		border: 3px solid rgba(255, 255, 255, .6);
+		width: 250px;
+		height: 50px;
+		padding: 0px;
+		margin-top: 20px;
+		color: rgba(000, 000, 000, .6);
+		font-size: 20px;
+		transition-duration: 0.1s;
+		cursor: pointer;
+	}		
+
+	.modeButton:focus {
+		outline: none;   
+	}
+			
+	.modeButton:hover {
+		border: 3px solid rgba(255, 000, 000, 1);
+		color: red;
+		transition-duration: 0.2s;
+	}	
+
+	.modeButton:active {
+		border: 3px solid rgba(255, 255, 255, .2);
+	}
+	
+			
+</style>
+
+<body style="background-color:#000000; background-size:cover onload="loadClasses()">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXDC7NZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<div id="login" align="center" style="padding-top:22px;padding-bottom:22px;">	
+	<div class="desBoard" align="center" style="width:300px;height:350px">
+		<b><p align="center" style="margin-bottom:10px;margin-top:35px;font-size:30px;color:#ffffff">Đăng nhập</p></b></br>
+		
+		<p id="loginStatus" align="center" style="margin:0px;font-size:15px;color:#ff1f1f;height:30px"></p>
+		
+		<form align="center" style="color:#ffffff;font-size:17px;width:250px" onsubmit="dashLogin(); return false;">
+			<!-- <b><p align="left" style="margin:5px;padding-left:5px">Tên đăng nhập:</p></b> -->
+			<!-- <input id="username" class="valueinput" align="left" type="text" style="width:250px;margin-top:0px;font-size:15px;margin-bottom:10px"> -->
+			<b><p align="left" style="margin:5px;padding-left:5px">Mật khẩu:</p></b>
+			<input id="password" class="valueinput" align="left" type="password" style="width:200px;margin-top:0px;font-size:15px;margin-bottom:20px">
+			<input name="login" class="modeButton" type="submit" value="Đăng nhập" style="width:150px;font-weight:bold">
+		</form>
+<script src="./javascript/login.js"></script>
+</body>
+</html>
